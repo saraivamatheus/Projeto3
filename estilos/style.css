@@ -32,7 +32,6 @@ h1{
 }
 
 
-
 h5{
     font-family: 'Press Start 2P';
     color: #F72BFF;
@@ -51,8 +50,7 @@ p.conteudo{
     margin: 0 auto;
 }
 
-.contact-form input[type="text"],
-.contact-form textarea {
+.contact-form input[type="text"], .contact-form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -119,4 +117,21 @@ footer > p{
 img#primeira{
     border-radius: 10px;
     margin-top: 30px;
+}
+
+footer{
+    padding-top: 10px;
+    padding-bottom: 4px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+footer > p{
+    color: white
+}
+
+footer > a{
+    text-decoration: none;
+    font-weight: bold;
 }
